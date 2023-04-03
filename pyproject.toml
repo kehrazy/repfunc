@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "repfunc"
+version = "0.1.0"
+description = "a decorator for function that repeat. a lot."
+authors = [
+    "Igor Fedenko <kehrazybox@gmail.com>"
+]
+license = "WTFPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
